@@ -1,0 +1,43 @@
+html{
+    font-size: 16px;
+     /* es la equivalancia a 1rem */
+     font-family: var(--tipografia);
+
+}
+/* estilos del banner */
+
+
+.banner{
+    width:100%;
+    
+    }
+
+
+.banner h1{
+font-size: 2rem;
+font-weight: bold;
+margin-bottom: 10px;
+text-align: center;
+
+
+}
+
+.banner p{
+color: var(--negro-texto);
+font-size: 1rem;
+margin: 0 auto;
+text-align: center;
+width: 75%;
+
+}
+.banner .img-container{
+
+    width: 100%;
+
+}
+
+.banner .img-container img{
+
+    width: 100%;
+
+}
