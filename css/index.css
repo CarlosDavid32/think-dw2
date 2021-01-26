@@ -36,8 +36,35 @@ width: 75%;
 
 }
 
-.banner .img-container img{
+.banner .img-container img
 
     width: 100%;
+
+}
+.banner.feature p {
+
+text-align:left;
+}
+.banner.feature p:nth-child(1){
+    font-size: 0.75rem;
+    margin-bottom: 20px;
+}
+
+
+banner.feature p:nth-child(2){
+    font-size: 1.5rem;
+}
+
+@media only screen and (min-width 768px){
+    .banner.img-container{
+        float: right;
+        width: 60%;
+
+}
+.banner.feature{
+    float: left;
+  
+    padding: 88px 0;
+    width: 40%;
 
 }
